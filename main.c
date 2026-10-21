@@ -4,6 +4,7 @@ int main() {
   int a = 10;
   int b = 11;
   int c = 12;
+  int max = a;
   if (a >= b && a >= c) {
     max = a;
   } 
