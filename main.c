@@ -6,12 +6,10 @@ int main() {
   if (a >= b && a >= c) {
     max = a;
   } 
-  else if (b >= a && b >= c)
-            max = b;
-     } 
+  else if (b >= a && b >= c) max = b;
 else {
          max = c;
   }
-  printf("%d",max);
+  printf("%d SO LON NHAT",max);
   return 0;
 }
