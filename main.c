@@ -10,6 +10,6 @@ int main() {
 else {
          max = c;
   }
-  printf("%d SO LON NHAT",max);
+  printf("%d",max);
   return 0;
 }
