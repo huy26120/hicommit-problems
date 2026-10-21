@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int a = 10;
-  int b = 11;
-  int c = 12;
-  int max = a;
+  int a,b,c,max;
+  scanf("%d %d %d", &a, &b, &c);
   if (a >= b && a >= c) {
     max = a;
   } 
@@ -14,6 +12,6 @@ int main() {
 else {
          max = c;
   }
-  printf("SO LON NHAT TRONG BA SO");
+  printf("%d",max);
   return 0;
 }
