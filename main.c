@@ -9,13 +9,13 @@ scanf("%f",&drl);
   if(dtb >= 9.0) hocluc = 1;
 else if (8.0 >= dtb < 9.0) hocluc = 2;
 else if (7.0 >= dtb < 8.0) hocluc = 3;
-else if (dtb < 7.0) hocluc 4.;
+else if (dtb < 7.0) hocluc 4;
   
   if (drl >= 90) hanhkiem = 1;
-else if (drl >= 80 && drl < 90) hanhkiem  2;
-else if (drl >= 70 && dtl <80) hanhkiem = 3;
-else if(drl < 70) hanhkiem = 4.;
-    }
+else if (drl >= 80 && drl < 90) hanhkiem = 2;
+else if (drl >= 70 && drl <80) hanhkiem = 3;
+else if(drl < 70) hanhkiem = 4;
+  
   if(hocluc == 1 && hanhkiem == 1){
     printf("HOC_BONG_XUAT_SAC");
 }
