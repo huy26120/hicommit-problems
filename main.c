@@ -3,7 +3,7 @@
 int main() {
   int n;
   scanf("%d,&n");
-  switch(n)
+  switch(n){
     case 1:
         printf("XEP_LOAI_XUAT_SAC");
         break;
@@ -18,6 +18,6 @@ int main() {
         break;
     default
         printf("KHONG_HOP_LE");
-        break;   
+  }
   return 0;
 }
