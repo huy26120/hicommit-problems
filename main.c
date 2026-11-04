@@ -16,7 +16,7 @@ int main() {
     case 4:
         printf("XEP_LOAI_TRUNG_BINH");
         break;
-    default
+    default:
         printf("KHONG_HOP_LE");
   }
   return 0;
