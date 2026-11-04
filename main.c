@@ -3,27 +3,27 @@
 int main(){
 float dtb;
 floar drl;
-int hoc luc, hanh kiem;
+int hocluc, hanhkiem;
 scanf("%f",&dtb);
 scanf("%f",&drl);
-  if(dtb >= 9.0) hoc luc = 1;
-else if (8.0 >= dtb < 9.0) hoc luc = 2;
-else if (7.0 >= dtb < 8.0) hoc luc = 3;
-else if (dtb < 7.0) hoc luc 4.;
+  if(dtb >= 9.0) hocluc = 1;
+else if (8.0 >= dtb < 9.0) hocluc = 2;
+else if (7.0 >= dtb < 8.0) hocluc = 3;
+else if (dtb < 7.0) hocluc 4.;
   
-  if (drl >= 90) hanh kiem = 1;
-else if (drl >= 80 && drl < 90) hanh kiem  2;
-else if (drl >= 70 && dtl <80) hanh kiem = 3;
-else if(drl < 70) hanh kiem = 4.;
+  if (drl >= 90) hanhkiem = 1;
+else if (drl >= 80 && drl < 90) hanhkiem  2;
+else if (drl >= 70 && dtl <80) hanhkiem = 3;
+else if(drl < 70) hanhkiem = 4.;
     }
-  if(hoc luc == 1 && hanh kiem == 1){
+  if(hocluc == 1 && hanhkiem == 1){
     printf("HOC_BONG_XUAT_SAC");
 }
-else if(hoc luc == 2 && hanh kiem == 2){
+else if(hocluc == 2 && hanhkiem == 2){
     printf("HOC_BONG_GIOI");
-}else if(hoc luc == 3 && hanh kiem == 3)
+}else if(hocluc == 3 && hanhkiem == 3)
     printf("HOC_BONG_KHA");
-   if(hoc luc == 4 && hanh kiem == 4){
+   if(hocluc == 4 && hanhkiem == 4){
     printf("KHONG_DAT");
 }
  return 0;
