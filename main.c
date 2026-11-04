@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() 
+int main(){
 float dtb, drl;
 scanf("%f",&dtb);
 scanf("%f",&drl);
@@ -12,5 +12,6 @@ if (dtb >=9 && drl >= 90) {
   printf("HOC_BONG_KHA");
 }else {
   printf("KHONG_DAT");
+}
   return 0;
 }
